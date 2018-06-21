@@ -12,6 +12,7 @@ import serial
 
 # construct argument to transmit UART
 ser = serial.Serial('/dev/ttyS0',9600)
+#ser = serial.Serial('/dev/ttyS0', 13900)
 
 
 # construct the argument parse and parse the arguments
